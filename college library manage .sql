@@ -16,4 +16,6 @@ WHERE title = 'The Great Gatsby';
 
  SELECT * FROM `college library manage` WHERE 
 author <> 'Dan Brown';
+SELECT * FROM `college library manage` WHERE 
+author <> 'Dan Brown';
 
