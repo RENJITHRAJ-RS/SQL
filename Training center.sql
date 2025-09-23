@@ -14,7 +14,14 @@ UPDATE `training center`
 SET fees_paid = fees_paid + 1000
 WHERE course = 'Data Science';
 
-UPDATE `trainin center`
+UPDATE `training center`
 SET status = 'Inactive',
-    fees_paid = fees_paid - 500
+fees_paid = fees_paid - 500
 WHERE id = 3;
+
+DELETE FROM `training center`
+WHERE id = 2;
+
+DELETE FROM `training center`
+WHERE status = 'Inactive';
+
