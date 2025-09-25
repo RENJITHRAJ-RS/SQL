@@ -1,1 +1,0 @@
-INSERT INTO customors VALUES ('2','William','Tokyo','4006','Japan');
